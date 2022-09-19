@@ -4,5 +4,5 @@ services:
     image: aseemmobiapp:1.0
     container_name: aseemC1
     ports: # any port between 1024 to 600000 can be used
-    - "8484:8080"
+    - "8484:80"
     restart: always

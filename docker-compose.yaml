@@ -1,0 +1,8 @@
+services:
+  aseemjavaapp:
+    build: . # dockerfile is in present dir
+    image: aseemmobiapp:1.0
+    container_name: aseemC1
+    ports: # any port between 1024 to 600000 can be used
+    - "8484:8080"
+    restart: always
